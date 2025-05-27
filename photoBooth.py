@@ -136,7 +136,7 @@ def print_image():
         os.system('taskkill /f /im SumatraPDF.exe 2>nul')
         time.sleep(1)  # Give it a moment to close
 
-        #PRINT CODE
+        #PRINT SETTINGS
         # Print with 4x6 photo paper settings or default settings
         subprocess.run([
             sumatra_path,
